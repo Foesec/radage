@@ -1,0 +1,22 @@
+{
+  "name": "radage",
+  "version": "1.0.0",
+  "description": "A simple json data generator",
+  "private": true,
+  "main": "index.js",
+  "bin": "./bin/radage.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Felix Kieber <felixkieber@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "chance": "^1.0.16",
+    "commander": "^2.19.0",
+    "joi": "^14.0.4"
+  }
+}

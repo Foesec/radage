@@ -1,0 +1,20 @@
+{
+  "firstValue": {
+    "type": "int",
+    "min": 0,
+    "max": 200
+  },
+  "secondValue": {
+    "type": "boolean",
+    "probability": 0.2
+  },
+  "myobj": {
+    "$array": true,
+    "$length": 3,
+    "nestedValue": {
+      "type": "float",
+      "min": 0,
+      "max": 3
+    }
+  }
+}
